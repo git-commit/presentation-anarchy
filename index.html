@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="css/theme/black.css">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+		<link rel="stylesheet" src="lib/css/monokai.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -25,8 +25,68 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+
+
+<section data-background-image="media/anarchybg.svg" data-background-opacity=0.15 data-background-position="bottom -120px right -150px" data-background-size="60%">
+	<h1>Anarchie</h1>
+</section>
+
+<section>
+	<blockquote>&ldquo;Mostly seen nowadays when posers write it on their bags or hands. They never have any idea what it means, and probably have no interest in politics whatsoever.&rdquo;</blockquote>
+	<p style="text-align:right;">
+	<i>&mdash; Anarchy, Urban Dictionary</i>
+	</p>
+</section>
+
+<section>
+	<section><h1><a href="#/2/1">EN</a></h1> <h1><a href="#/2/2">DE</a></h1></section>
+	<section data-background-video="media/jokerens.mp4" data-background-size="contain"></section>
+	<section data-background-video="media/jokerdes.mp4" data-background-size="contain"></section>
+</section>
+
+<section data-background-image="media/jokerbg2.png" data-background-opacity=0.2>
+	<div class="fragment">
+	<h1>Anarchie &#x21D2; Chaos</h1>
+	<h1>Chaos &#x21D2; Gewalt</h1>
+	<br /><br /><!--h1>&#x21D4;</h1-->
+	<h1 class="fragment">Anarchie&#x21D2;Gewalt</h1>
+	</div>
+
+	<!-- NOTES -->
+	<aside class="notes">
+	<p>Duden hat auch Chaos als Definition</p>
+	</aside>
+</section>
+
+
+
+<section>
+	<h1 style="font-family:Palatino Linotype">An&middot;archie</h1>
+</section>
+
+<section data-background-image="media/stirnerw.svg" data-background-position="bottom -20px right -40px" data-background-size="30%"><h2>Max Stirner</h2>
+	<p class="fragment">&ldquo;Der Einzige und sein Eigentum&rdquo;</p>
+	
+	<!-- NOTES -->
+	<aside class="notes">
+	<p>Johann Kaspar Schmidt</p>
+	<p>geb 1806 in Bayreuth</p>
+	</aside>
+</section>
+
+<!-- STIRNER MEMES -->
+<section data-background-image="media/memes.jpg"></section>
+
+<!-- STIRNER FORUM -->
+<section><iframe class="stretch" src="https://yuki.la/pol/85598728#p85598728"></iframe></section>
+
+<!-- STIRNER ROCK -->
+<section data-background-image="media/rock.jpg"></section>
+
+<!-- BACKUP-->
+<section data-background-image="media/anarchybg.svg" data-background-opacity=0.15 data-background-position="bottom -120px right -150px" data-background-size="60%"><h1>Anarchie</h1></section>
+
+
 			</div>
 		</div>
 
@@ -37,6 +97,11 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				progress: false,
+				controls: false,
+				controlsTutorial: false,
+				hash: true,
+
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
